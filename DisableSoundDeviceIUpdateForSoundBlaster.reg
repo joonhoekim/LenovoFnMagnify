@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall]
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions]
+
+"DenyDeviceIDs"=dword:00000001
+
+"DenyDeviceIDsRetroactive"=dword:00000000
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs]
+
+"1"="SWC\\VEN_1102&AID_FF00"
+
+"2"="SWC\\VEN_1102&AID_FE02"
